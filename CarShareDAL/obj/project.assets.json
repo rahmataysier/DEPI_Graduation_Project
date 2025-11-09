@@ -5023,11 +5023,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\learning\\DEPI\\Grad_Project\\CareShare\\CareShare\\CarShareDAL\\CarShareDAL.csproj",
+      "projectUniqueName": "D:\\learning\\DEPI\\Grad_Project\\CareShare\\CareShare\\DEPI_Graduation_Project\\CarShareDAL\\CarShareDAL.csproj",
       "projectName": "CarShareDAL",
-      "projectPath": "D:\\learning\\DEPI\\Grad_Project\\CareShare\\CareShare\\CarShareDAL\\CarShareDAL.csproj",
+      "projectPath": "D:\\learning\\DEPI\\Grad_Project\\CareShare\\CareShare\\DEPI_Graduation_Project\\CarShareDAL\\CarShareDAL.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\learning\\DEPI\\Grad_Project\\CareShare\\CareShare\\CarShareDAL\\obj\\",
+      "outputPath": "D:\\learning\\DEPI\\Grad_Project\\CareShare\\CareShare\\DEPI_Graduation_Project\\CarShareDAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

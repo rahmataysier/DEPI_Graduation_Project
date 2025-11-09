@@ -4056,11 +4056,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\learning\\DEPI\\Grad_Project\\CareShare\\CareShare\\CarSharePL\\CarSharePL.csproj",
+      "projectUniqueName": "D:\\learning\\DEPI\\Grad_Project\\CareShare\\CareShare\\DEPI_Graduation_Project\\CarSharePL\\CarSharePL.csproj",
       "projectName": "CarSharePL",
-      "projectPath": "D:\\learning\\DEPI\\Grad_Project\\CareShare\\CareShare\\CarSharePL\\CarSharePL.csproj",
+      "projectPath": "D:\\learning\\DEPI\\Grad_Project\\CareShare\\CareShare\\DEPI_Graduation_Project\\CarSharePL\\CarSharePL.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\learning\\DEPI\\Grad_Project\\CareShare\\CareShare\\CarSharePL\\obj\\",
+      "outputPath": "D:\\learning\\DEPI\\Grad_Project\\CareShare\\CareShare\\DEPI_Graduation_Project\\CarSharePL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UR119kWEivg=",
+  "dgSpecHash": "oiXq3mizcYo=",
   "success": true,
-  "projectFilePath": "D:\\learning\\DEPI\\Grad_Project\\CareShare\\CareShare\\CarShareMVC\\CarShareMVC.csproj",
+  "projectFilePath": "D:\\learning\\DEPI\\Grad_Project\\CareShare\\CareShare\\DEPI_Graduation_Project\\CarShareMVC\\CarShareMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.3.0\\microsoft.aspnetcore.authentication.2.3.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.3.0\\microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",

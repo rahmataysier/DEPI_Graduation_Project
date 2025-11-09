@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VOtyM7xzxk0=",
+  "dgSpecHash": "gaIirc6x1Xs=",
   "success": true,
-  "projectFilePath": "D:\\learning\\DEPI\\Grad_Project\\CareShare\\CareShare\\CarShareDAL\\CarShareDAL.csproj",
+  "projectFilePath": "D:\\learning\\DEPI\\Grad_Project\\CareShare\\CareShare\\DEPI_Graduation_Project\\CarShareDAL\\CarShareDAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

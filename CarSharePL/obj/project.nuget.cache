@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UlcyzBHOqao=",
+  "dgSpecHash": "NWq+l1X3Lmw=",
   "success": true,
-  "projectFilePath": "D:\\learning\\DEPI\\Grad_Project\\CareShare\\CareShare\\CarSharePL\\CarSharePL.csproj",
+  "projectFilePath": "D:\\learning\\DEPI\\Grad_Project\\CareShare\\CareShare\\DEPI_Graduation_Project\\CarSharePL\\CarSharePL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.0\\microsoft.aspnetcore.authentication.jwtbearer.8.0.0.nupkg.sha512",

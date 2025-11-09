@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\learning\\DEPI\\Grad_Project\\CareShare\\CareShare\\CarShareMVC\\CarShareMVC.csproj": {}
+    "D:\\learning\\DEPI\\Grad_Project\\CareShare\\CareShare\\DEPI_Graduation_Project\\CarShareMVC\\CarShareMVC.csproj": {}
   },
   "projects": {
-    "D:\\learning\\DEPI\\Grad_Project\\CareShare\\CareShare\\CarShareMVC\\CarShareMVC.csproj": {
+    "D:\\learning\\DEPI\\Grad_Project\\CareShare\\CareShare\\DEPI_Graduation_Project\\CarShareMVC\\CarShareMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\learning\\DEPI\\Grad_Project\\CareShare\\CareShare\\CarShareMVC\\CarShareMVC.csproj",
+        "projectUniqueName": "D:\\learning\\DEPI\\Grad_Project\\CareShare\\CareShare\\DEPI_Graduation_Project\\CarShareMVC\\CarShareMVC.csproj",
         "projectName": "CarShareMVC",
-        "projectPath": "D:\\learning\\DEPI\\Grad_Project\\CareShare\\CareShare\\CarShareMVC\\CarShareMVC.csproj",
+        "projectPath": "D:\\learning\\DEPI\\Grad_Project\\CareShare\\CareShare\\DEPI_Graduation_Project\\CarShareMVC\\CarShareMVC.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\learning\\DEPI\\Grad_Project\\CareShare\\CareShare\\CarShareMVC\\obj\\",
+        "outputPath": "D:\\learning\\DEPI\\Grad_Project\\CareShare\\CareShare\\DEPI_Graduation_Project\\CarShareMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

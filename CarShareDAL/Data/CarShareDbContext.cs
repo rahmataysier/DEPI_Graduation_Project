@@ -13,5 +13,27 @@ namespace CarShareDAL.Data
         public CarShareDbContext(DbContextOptions<CarShareDbContext> options) : base(options) { }
 
         public DbSet<User> Users { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<User>()
+                .HasIndex(u => u.Email)
+                .IsUnique();
+
+            // Seed admin user (INSERT admin user if it doesn’t already exist.)
+            modelBuilder.Entity<User>().HasData(
+                new User
+                {
+                    Id = 1,
+                    FullName = "System Admin",
+                    Email = "admin@carshare.com",
+                    PasswordHash = BCrypt.Net.BCrypt.HashPassword("Admin@123"),
+                    Role = "Admin",
+                    IsApproved = true,
+                    CreatedAt = DateTime.UtcNow,
+                }
+            );
+        }
     }
 }
