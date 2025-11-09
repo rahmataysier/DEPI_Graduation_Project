@@ -1,0 +1,17 @@
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\bin\Debug\net8.0\CarShareBLL.deps.json
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\bin\Debug\net8.0\CarShareBLL.dll
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\bin\Debug\net8.0\CarShareBLL.pdb
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\bin\Debug\net8.0\CarShareDAL.dll
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\bin\Debug\net8.0\CarShareDAL.pdb
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\obj\Debug\net8.0\CarShareBLL.csproj.AssemblyReference.cache
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\obj\Debug\net8.0\CarShareBLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\obj\Debug\net8.0\CarShareBLL.AssemblyInfoInputs.cache
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\obj\Debug\net8.0\CarShareBLL.AssemblyInfo.cs
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\obj\Debug\net8.0\CarShareBLL.csproj.CoreCompileInputs.cache
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\obj\Debug\net8.0\CarShare.FFBE1EB7.Up2Date
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\obj\Debug\net8.0\CarShareBLL.dll
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\obj\Debug\net8.0\refint\CarShareBLL.dll
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\obj\Debug\net8.0\CarShareBLL.pdb
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\obj\Debug\net8.0\ref\CarShareBLL.dll
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\bin\Debug\net8.0\CarShareBLL.runtimeconfig.json
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\obj\Debug\net8.0\CarShareBLL.genruntimeconfig.cache

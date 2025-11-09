@@ -1,0 +1,15 @@
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\bin\Debug\net8.0\CarShareBussinessLogicLayer.deps.json
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\bin\Debug\net8.0\CarShareBussinessLogicLayer.dll
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\bin\Debug\net8.0\CarShareBussinessLogicLayer.pdb
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\obj\Debug\net8.0\CarShareBussinessLogicLayer.csproj.AssemblyReference.cache
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\obj\Debug\net8.0\CarShareBussinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\obj\Debug\net8.0\CarShareBussinessLogicLayer.AssemblyInfoInputs.cache
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\obj\Debug\net8.0\CarShareBussinessLogicLayer.AssemblyInfo.cs
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\obj\Debug\net8.0\CarShareBussinessLogicLayer.csproj.CoreCompileInputs.cache
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\obj\Debug\net8.0\CarShareBussinessLogicLayer.dll
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\obj\Debug\net8.0\refint\CarShareBussinessLogicLayer.dll
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\obj\Debug\net8.0\CarShareBussinessLogicLayer.pdb
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\obj\Debug\net8.0\ref\CarShareBussinessLogicLayer.dll
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\bin\Debug\net8.0\CarShareDataAccessLayer.dll
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\bin\Debug\net8.0\CarShareDataAccessLayer.pdb
+D:\Dalia .Net Developer\DEPI\GP\CareShare\CarShareBLL\obj\Debug\net8.0\CarShare.B5FC519F.Up2Date
