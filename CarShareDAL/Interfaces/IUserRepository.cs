@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace CarShareDAL.Interfaces
 {
 
-    public interface IUserRepository
+    public interface IUserRepository : IRepository<User>
     {
         Task<IEnumerable<User>> GetPendingOwnersAsync();
         Task<User?> GetByIdAsync(int id);

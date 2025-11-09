@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarShareDAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f66d7c2c7fb00f33d11310335c1082ada20aff93")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45da25d77bf2e4d8efa1ed2ad673759f6933ca47")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarShareDAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarShareDAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

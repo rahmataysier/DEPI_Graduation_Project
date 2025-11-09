@@ -10,10 +10,10 @@ using System.Threading.Tasks;
 
 namespace CarShareDAL.Repositories
 {
-    public class UserRepository : IUserRepository
+    public class UserRepository : Repository<User>, IUserRepository
     {
         private readonly CarShareDbContext _context;
-        public UserRepository(CarShareDbContext context)
+        public UserRepository(CarShareDbContext context): base(context)
         {
             _context = context;
         }
