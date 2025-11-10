@@ -15,6 +15,9 @@ namespace CarShareDAL.Interfaces
         Task UpdateAsync(User user);
         Task<IEnumerable<User>> GetAllOwnersAsync();
 
+        // User-Auth methods
+        Task<User?> GetByEmailAsync(string email);
+        Task<bool> EmailExistsAsync(string email);
     }
 
 }

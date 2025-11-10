@@ -13,7 +13,7 @@ namespace CarShareDAL.Repositories
     public class UserRepository : Repository<User>, IUserRepository
     {
         private readonly CarShareDbContext _context;
-        public UserRepository(CarShareDbContext context): base(context)
+        public UserRepository(CarShareDbContext context) : base(context)
         {
             _context = context;
         }
@@ -44,5 +44,17 @@ namespace CarShareDAL.Repositories
                 .OrderByDescending(u => u.CreatedAt)
                 .ToListAsync();
         }
+        public async Task<User?> GetByEmailAsync(string email)
+        {
+            return await _context.Users
+                .FirstOrDefaultAsync(u => u.Email.ToLower() == email.ToLower());
+        }
+
+        public async Task<bool> EmailExistsAsync(string email)
+        {
+            return await _dbSet
+                .AnyAsync(u => u.Email.ToLower() == email.ToLower());
+        }
+
     }
 }
