@@ -13,13 +13,22 @@ namespace CarShareDAL.Data
         public CarShareDbContext(DbContextOptions<CarShareDbContext> options) : base(options) { }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<Car> Cars { get; set; } 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
+            // Unique constraint on Email - User Configuration
             modelBuilder.Entity<User>()
                 .HasIndex(u => u.Email)
                 .IsUnique();
+
+            // Car Configuration
+            modelBuilder.Entity<Car>()
+                .HasOne(c => c.Owner)
+                .WithMany()
+                .HasForeignKey(c => c.OwnerId)
+                .OnDelete(DeleteBehavior.Cascade);
 
             // Seed admin user (INSERT admin user if it doesn’t already exist.)
             modelBuilder.Entity<User>().HasData(
