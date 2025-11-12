@@ -1,3 +1,7 @@
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using CarShareDAL.Interfaces;
 using CarShareDAL.Models;
 using CarShareDAL.Data;
@@ -34,7 +38,7 @@ namespace CarShareDAL.Repositories
         {
             return await _dbSet
                 .Include(c => c.Owner)
-                .Where(c => c.OwnerId == ownerId && c.IsApproved)
+                .Where(c => c.OwnerId == ownerId && c.ApprovalStatus == "Approved")
                 .OrderByDescending(c => c.CreatedAt)
                 .ToListAsync();
         }
@@ -52,7 +56,6 @@ namespace CarShareDAL.Repositories
                 .Include(c => c.Owner)
                 .Where(c => c.ApprovalStatus == "Approved"
                          && c.RentalStatus == "Available"
-                         && c.IsApproved
                          && (c.Title.ToLower().Contains(lowerSearchTerm)
                              || c.Brand.ToLower().Contains(lowerSearchTerm)
                              || c.Model.ToLower().Contains(lowerSearchTerm)
@@ -72,8 +75,7 @@ namespace CarShareDAL.Repositories
             var query = _dbSet
                 .Include(c => c.Owner)
                 .Where(c => c.ApprovalStatus == "Approved"
-                         && c.RentalStatus == "Available"
-                         && c.IsApproved)
+                         && c.RentalStatus == "Available")
                 .AsQueryable();
 
             if (!string.IsNullOrWhiteSpace(carType))
@@ -99,7 +101,7 @@ namespace CarShareDAL.Repositories
             if (!string.IsNullOrWhiteSpace(location))
             {
                 query = query.Where(c => c.Location.ToLower().Contains(location.ToLower())
-                                      || c.City.ToLower().Contains(location.ToLower()));
+                                      || c.Description.ToLower().Contains(location.ToLower()));
             }
 
             return await query.OrderByDescending(c => c.CreatedAt).ToListAsync();
@@ -115,7 +117,7 @@ namespace CarShareDAL.Repositories
         {
             return await _dbSet
                 .Include(c => c.Owner)
-                .FirstOrDefaultAsync(c => c.Id == carId);
+                .FirstAsync(c => c.Id == carId);
         }
     }
 }

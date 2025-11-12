@@ -73,8 +73,6 @@ namespace CarShareDAL.Models
 
         // Metadata
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-        
-        public bool IsActive { get; set; } = true;
-
+        public DateTime? UpdatedAt { get; set; }
     }
 }
