@@ -24,9 +24,12 @@ namespace CarSharePL
             builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
 
             // DI
+            builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddScoped<IAdminService, AdminService>();
-
+            builder.Services.AddScoped<IAuthService, AuthService>();
+            
+    
 
 
 

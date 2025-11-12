@@ -47,13 +47,13 @@ namespace CarShareDAL.Repositories
         public async Task<User?> GetByEmailAsync(string email)
         {
             return await _context.Users
-                .FirstOrDefaultAsync(u => u.Email.ToLower() == email.ToLower());
+                .FirstOrDefaultAsync(u => u.Email.ToLower().Equals(email.ToLower()));
         }
 
         public async Task<bool> EmailExistsAsync(string email)
         {
             return await _dbSet
-                .AnyAsync(u => u.Email.ToLower() == email.ToLower());
+                .AnyAsync(u => u.Email.ToLower().Equals(email.ToLower()));
         }
 
     }

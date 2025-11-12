@@ -8,5 +8,9 @@ namespace CarShareBLL.DTOs
         public string PhoneNumber { get; set; }
         public string Role { get; set; }
         public bool IsApproved { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public string LicenseNumber { get; set; }
+        public string NationalId { get; set; }
+        public string DocumentUrl { get; set; }
     }
 }
