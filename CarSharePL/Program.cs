@@ -28,7 +28,8 @@ namespace CarSharePL
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddScoped<IAdminService, AdminService>();
             builder.Services.AddScoped<IAuthService, AuthService>();
-            
+            builder.Services.AddScoped<ICarRepository, CarRepository>();
+            builder.Services.AddScoped<ICarService, CarService>();
     
 
 
