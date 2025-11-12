@@ -2,8 +2,10 @@ using Microsoft.AspNetCore.Mvc;
 using CarShareBLL.Services;
 using CarShareBLL.DTOs;
 
-namespace CarSharePL.Controllers.API
+namespace CarSharePL.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]    
     public class AuthController : ControllerBase
     {
         private readonly IAuthService _authService;
