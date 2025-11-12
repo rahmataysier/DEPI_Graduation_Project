@@ -24,3 +24,4 @@ Edit the connection string in appsettings.json, then run:
 dotnet ef database update --project CarShareDAL
 dotnet run --project CarShareAPI
 ```
+That's it, 👋 Enjoy!!!
