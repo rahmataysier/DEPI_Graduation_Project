@@ -7,7 +7,10 @@ namespace CarShareMVC
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-            builder.Services.AddControllersWithViews();
+            builder.Services.AddControllersWithViews(); // For MVC
+            builder.Services.AddControllers();          // For API
+            builder.Services.AddEndpointsApiExplorer(); // For Swagger (API documentation)
+            // builder.Services.AddSwaggerGen();           // API documentation
 
             var app = builder.Build();
 
@@ -21,14 +24,17 @@ namespace CarShareMVC
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
             app.UseRouting();
-
             app.UseAuthorization();
+            app.UseHttpsRedirection();
 
+            app.UseCors("AllowAll");
+            app.UseSession();
+    
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
+            app.MapControllers(); // For API controllers
 
             app.Run();
         }
